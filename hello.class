@@ -1,0 +1,53 @@
+//public class Method01 {
+//    /*main方法：程序入口*/
+//    public static void main(String[] args){
+//
+//        int a1 = add(300,500);
+//        int s1 = sub(300,500);
+//        int m1 = multi(300,500);
+//        int d1 = dvi(300,500);
+//
+//        System.out.println("两个数的和："+ans1);
+//        System.out.println("两个数的和："+ans2);
+//        System.out.println("两个数的和："+ans3);
+//        System.out.println("两个数的和："+ans4);
+//
+//    }
+//
+//    //两个数相加- addition
+//    public static int add(int n1,int n2/*形式参数*/){
+//        int ans1 = n1 + n2;
+//        return ans1;
+//    }
+//
+//    //两个数相减 - subtraction
+//    public static int sub(int n1,int n2/*形式参数*/){
+//        int ans2 = n1 - n2;
+//        return ans2;
+//    }
+//
+//    //两个数相乘 - multiplication
+//    public static int multi(int n1,int n2/*形式参数*/){
+//        int ans3 = n1 * n2;
+//        return ans3;
+//    }
+//
+//    //两个数相除 - division
+//    public static int dvi(int n1,int n2/*形式参数*/){
+//        int ans4 = n1 / n2;
+//        return ans4;
+//    }
+//}
+
+public class Method01 {
+    public static void main(String[] args){
+        int a1 = add(100,200);
+        System.out.println("两个数的和："+ add);
+    }
+
+    //两个数的求和
+    public static int add(int n1,int n2){
+        int sum = n1 + n2;
+        return sum;
+    }
+}
