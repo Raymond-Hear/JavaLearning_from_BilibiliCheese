@@ -1,2 +1,2 @@
-# YJavaLearning_from_BilibiliCheese
+# JavaLearning_from_BilibiliCheese
 整理bilibili课堂「Java从入门到实战」的代码仓库
